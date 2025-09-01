@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom utilities */
+.btn-primary{
+  @apply inline-block px-6 py-3 rounded-full bg-brandPrimary text-white font-semibold shadow-md hover:bg-brandAccent transition-colors;
+}
+.section-title{
+  @apply text-3xl md:text-4xl font-heading font-bold text-brandPrimary mb-6;
+}
